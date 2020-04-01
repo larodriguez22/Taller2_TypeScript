@@ -8,7 +8,7 @@ import { dataStudent } from './dataStudent.js';
 
 
 let coursesTbody: HTMLElement = document.getElementById('courses')!;
-let studentsTbody: HTMLElement = document.getElementById('students')!;
+let studentsTbody: HTMLElement = document.getElementById('estudiantes')!;
 const btnfilterByName: HTMLElement = document.getElementById("button-filterByName")!;
 const inputSearchBox: HTMLInputElement = <HTMLInputElement> document.getElementById("search-box")!;
 const totalCreditElm: HTMLElement = document.getElementById("total-credits")!;
